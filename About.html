@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    
+        <!--TO DO:Add navigation bar-->
+        <nav>
+            <a href="./index.html">Home</a>|
+            <a href="./Contact.html">Contact</a>|
+            <a href="./FAQ.html">FAQ</a>|
+            <a href="about">About</a>
+        </nav>
+    <h1 id="mainheading">About Us</h1>
+    </header>
+    <div>
+        <p>
+            CSS flex and grid!
+        </p>
+    </div>
+    <table>
+        <tr>
+            <td style="background-color: blue;height: 150px;width: 100px;"></td>
+            <td style="background-color: white;height: 150px;width: 100px;"></td>
+            <td style="background-color: red;height: 150px;width: 100px;"></td>
+        </tr>
+    </table>
+    <input type="search" placeholder="Enter Keywords">
+    <h1 align="center">Forms and Controls</h1>
+    <form method="get">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="Student Name">Student Name:</label> 
+            <input type="text" maxlength="20" required="Required"><br><br>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender" value="Boy"> Boy
+                        <input type="radio" name="Gender" value="Girl"> Girl <br><br>
+            <P>
+                <label for="DOB">Date of Birth</label>
+                <input type="date" name="DOB" id="DOB">
+
+            </P>
+            
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label for="Postal address"> Postal address</label>
+            <textarea name="Postal" id="Postal" cols="10" rows="4"></textarea>
+            <p>
+            Country: <select name="Country" id="Country" size="3">
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                        <option value="japan">japan</option>
+                    </select>
+            </p>
+            <p>
+                <label for="Email">Email</label>
+                <input type="Email" name="Email" id="Email">
+            </p>
+        </fieldset>  
+
+        <fieldset>
+            <legend>Interests</legend>
+        Subjects:   <input type="checkbox" name="Subjects" value="Tamil"> Tamil
+        <input type="checkbox" name="Subjects" value="Telugu"> Telugu
+        <input type="checkbox" name="Subjects" value="English"> English
+        <input type="checkbox" name="Subjects" value="Physics"> Physics
+        <input type="checkbox" name="Subjects" value="Economics"> Economics <br><br>
+        </fieldset>
+
+        <p>
+        <input type="reset" value="Clear" >
+        <input type="submit" value="Submit">
+        </p>
+    </form>  
+</body>
+</html>

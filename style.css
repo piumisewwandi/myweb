@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta|Roboto');
+#photo{
+    height: 500px;
+    margin: 25px;
+    float: left;
+    width: 228px;
+    background-color: #000f3b;
+}
+
+#myName, #jobtitle{
+    color: whitesmoke;
+    
+}
+
+#intro{
+    float: left;
+    text-align: justify;
+    width: 1000px;
+    margin: 5px;
+    margin-top: 17px;
+}
+#abouthead{
+    color: whitesmoke;
+    background-color: #000f3b;
+
+}
+body{
+    background-color:rgb(212, 210,210);
+    font-family: "Mukta";
+}
+
+nav a{
+    text-decoration: none;
+    color: navy;
+    margin-right: 8px;
+    border-bottom: 3px solid #000f3b;
+
+}
+
+a:hover{
+    background-color:whitesmoke;
+}
+#nav{
+    float: right;
+    margin-right: 100px;
+}
+
+

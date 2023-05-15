@@ -1,0 +1,74 @@
+#menu{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    animation-name: x;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+}
+
+/*@keyframes x{
+    from{background-color: green; color: white;}
+    to{background-color: red;}
+}*/
+
+@keyframes x{
+    0%{background-color: green;color: black;}
+    25%{background-color: blue;}
+    50%{background-color: blueviolet;}
+    75%{background-color: brown;}
+    100%{background-color: plum;}
+}
+#description{
+    height: 500px;
+    width: 350px;
+    background-color: aqua;
+    color: red;
+    animation-name: y;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes y{
+    0%{background-color: green;color: brown;}
+    25%{background-color: yellow;}
+    50%{background-color: blueviolet;}
+    75%{background-color: navy;}
+    100%{background-color: purple;}
+}
+
+.Transform{
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+    /*transform: translate(100px,30px);
+    transform: rotate(90deg);
+    transform: scale(5,2);
+    transform: scaleX(2)-width;
+    transform: scaleY(3)-height;
+    transform: skewX(30deg);*/
+    transform: skew(20deg,30deg);
+
+    color: white;
+    background-color: black;
+}
+.Transition{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 40px;
+    transition: width 4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+}
+
+.Transition:hover{
+    width: 500px;
+}

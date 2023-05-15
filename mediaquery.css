@@ -1,0 +1,19 @@
+/*@media print{
+    body{
+        font-size: 12pt;
+        background-color: blue;
+    }
+}*/
+
+@media screen and (max-width:600px)
+{
+    body{
+        color: red;
+    }
+}
+
+@media(orientation:landscape){
+    body{
+        color: blue;
+    }
+}
